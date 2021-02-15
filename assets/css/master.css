@@ -1,4 +1,5 @@
 /* BLU DIGITALOCEAN #006aff; */
+/* AZZURRO #a7ccfe; */
 /* GRIGIO CHIARO #f2f4f9; */
 /* GRIGIO TESTO NORMALE E FOOTER #5b6987; */
 /* BLU SCURO TITOLI/TESTO #031b4e; */
@@ -11,6 +12,33 @@ body
   font-size: 16px;
 }
 
+.container-fluid
+{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mt-10
+{
+  margin-top: 10px;
+}
+
+.mt-20
+{
+  margin-top: 20px;
+}
+
+.mt-30
+{
+  margin-top: 30px;
+}
+
+.pr-15
+{
+  padding-right: 15px;
+}
 
 .navbar-brand img
 {
@@ -87,11 +115,150 @@ ul.nav.navbar-nav
   height: 3px;
 }
 
+.jumbo
+{
+  margin-top: 61px;
+  background: url('../img/bg-sea.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
+.jumbo-text
+{
+  padding: 100px 50px;
+  padding-left: 0px;
+}
+
+.jumbo-text h1
+{
+  color: #fff;
+  font-size: 4em;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jumbo-text p
+{
+  color: #a7ccfe;
+  font-size: 1.25em;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.jumbo-form
+{
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
+  padding: 20px 15px;
+}
+
+.jumbo-form h3
+{
+  text-align: center;
+}
+
+.jumbo-form h3:first-child
+{
+  color: #031b4e;
+}
+
+.jumbo-form h3:last-child
+{
+  margin-top: 5px;
+  color: #006aff;
+}
+
+.btn-100
+{
+  display: block;
+  width: 100%;
+}
+
+.btn-blue
+{
+  background: #006aff;
+  color: #fff;
+  border-color: #006aff;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-blue:hover
+{
+  background: #5399fb;
+  color: #fff;
+  border-color: #5399fb;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-google
+{
+  position: relative;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+}
+
+.btn-google:hover
+{
+  position: relative;
+}
+
+.btn-google span img
+{
+  height: 19px;
+  position: absolute;
+  left: 0;
+  margin-left: 5px;
+}
+
+.jumbo-form p
+{
+  font-size: 0.75em;
+  text-align: center;
+}
+
+.jumbo-form p a,
+.jumbo-form p a:visited
+{
+  color: #006aff;
+  text-decoration: underline;
+}
+
+.jumbo-form p a:hover
+{
+  color: #5399fb;
+}
+
+@media all and (min-width: 1200px)
+{
+  .jumbo-form
+  {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 25%);
+  }
+}
+
 @media all and (min-width: 992px) and (max-width: 1199px)
 {
   ul.nav.navbar-nav
   {
     margin-left: 0px;
+  }
+
+  .jumbo-text h1
+  {
+
+  }
+
+  .jumbo-form
+  {
+    padding: 20px 15px;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 30%);
   }
 }
 
@@ -164,6 +331,33 @@ ul.nav.navbar-nav
     margin-left: 0px;
   }
 
+  .jumbo
+  {
+    margin-top: 75px;
+  }
+
+  .jumbo-text
+  {
+    padding: 100px 15px;
+  }
+
+  .jumbo-text h1
+  {
+    font-size: 3em;
+  }
+
+  .jumbo-text p
+  {
+    font-size: 1.25em;
+  }
+
+  .jumbo-form
+  {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, 15%);
+  }
 }
 
 @media all and (max-width: 767px)
@@ -231,6 +425,36 @@ ul.nav.navbar-nav
   ul.nav.navbar-nav
   {
     margin-left: 0px;
+  }
+
+  .jumbo
+  {
+    margin-top: 75px;
+  }
+
+  .jumbo
+  {
+    margin-top: 75px;
+  }
+
+  .jumbo-text
+  {
+    padding: 30px 15px;
+  }
+
+  .jumbo-text h1
+  {
+    font-size: 3em;
+  }
+
+  .jumbo-text p
+  {
+    font-size: 1.25em;
+  }
+
+  .jumbo-form
+  {
+    margin-bottom: 30px;
   }
 
 }
