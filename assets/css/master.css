@@ -447,6 +447,43 @@ ul.nav.navbar-nav
   color: #fff;
 }
 
+.service-list
+{
+  list-style: none;
+  margin-left: -35px;
+}
+
+.service-list li
+{
+  border-bottom: 1px solid #fff;
+}
+
+.service-list li h5,
+.service-list li p,
+.service-list li a
+{
+  display: inline-block;
+}
+
+.service-list li h5
+{
+  color: #fff;
+  text-transform: uppercase;
+  width: 100px;
+}
+
+.service-list li p
+{
+  color: #e4e6ed;
+}
+
+.service-list li a
+{
+  color: #00d7d2;
+  float: right;
+  margin-top: 6px;
+}
+
 @media all and (min-width: 1200px)
 {
   .jumbo-form
