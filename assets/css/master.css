@@ -981,6 +981,13 @@ footer ul li a
     padding-right: 30px;
   } */
 
+  .service-list li h5
+  {
+    color: #fff;
+    text-transform: uppercase;
+    width: 60px;
+  }
+
   .slider-img
   {
     height: 200px;
