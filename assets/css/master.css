@@ -486,6 +486,29 @@ ul.nav.navbar-nav
   margin-top: 6px;
 }
 
+.teams
+{
+  background: #fff;
+  display: inline-block;
+  width: 600px;
+  padding: 55px 20px;
+}
+
+.section-name
+{
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #031b4e;
+  display: block;
+}
+
+.section-job
+{
+  display: block;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+}
+
 .section-btn
 {
   margin-top: 0px;
@@ -512,7 +535,7 @@ ul.nav.navbar-nav
 footer
 {
   background: #031b4e;
-  padding: 40px 0;
+  padding: 60px 0;
 }
 
 footer img
@@ -573,6 +596,103 @@ footer ul li a
 {
   list-style: none;
   color: #94a9d6;
+}
+
+.chat-bot
+{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 300;
+}
+
+.box-chat
+{
+  background: #fff;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+  text-align: left;
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.par-chat
+{
+  color: #031b4e;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.box-squalo
+{
+  display: inline-block;
+}
+
+.box-img
+{
+  background: #006aff;
+  height: 50px;
+  width: 50px;
+  padding-top: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.box-img img
+{
+  width: 50px;
+}
+
+/* .box-badge
+{
+  background: #f00;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.box-badge span
+{
+  color: #fff;
+  font-size: 0.75em;
+} */
+
+.box-badge
+{
+  color: white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.box-badge span
+{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 1px 6px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+  font-size: 0.75em;
+  border: 3px solid #fff;
+}
+
+.box-square
+{
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  background: white;
+  position: absolute;
+  right: 70px;
+  bottom: 10px;
 }
 
 @media all and (min-width: 1200px)
@@ -710,8 +830,8 @@ footer ul li a
   {
     position:absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%, 15%);
+    left: 50%;
+    transform: translate(-60%, 15%);
   }
 
   .partner img
@@ -830,7 +950,7 @@ footer ul li a
 
   .partner img
   {
-    height: 120px;
+    height: 80%;
   }
 
   .card
@@ -846,13 +966,36 @@ footer ul li a
 
   .slider-img
   {
-    height: 300px;
+    height: 200px;
     margin-top: 20px;
   }
 
   .fa-chevron-left, .fa-chevron-right
   {
     visibility: hidden;
+  }
+
+  .teams
+  {
+    background: #fff;
+    display: inline-block;
+    width: 400px;
+    padding: 55px 20px;
+  }
+
+  .section-name
+  {
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #031b4e;
+    display: block;
+  }
+
+  .section-job
+  {
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 30px;
   }
 
 }
